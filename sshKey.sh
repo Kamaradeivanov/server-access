@@ -2,7 +2,7 @@
 
 #===================================================================================================================
 # Pour installer les clefs sur un serveur voici la commande à saisir :
-#   git archive --remote=ssh://git@github.com/kamaradeivanov/server-access.git HEAD sshKey.sh | tar -xO sshKey.sh |sudo bash
+#    bash -c "$(curl -fsSL https://raw.githubusercontent.com/Kamaradeivanov/server-access/master/sshKey.sh)"
 #===================================================================================================================
 
 function fatal { echo "$*"; exit 1; }
